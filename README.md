@@ -38,10 +38,11 @@ while True:
     myredLED1.fade()
     time.sleep(1)
     
-    ```
-  # Code Modules 
-    
     ```python
+    
+ # Code Modules 
+ 
+ ```python
     
     #these are the libraries needed to fade an LED
 import time
