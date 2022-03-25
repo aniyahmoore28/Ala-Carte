@@ -37,14 +37,14 @@ while True:
     time.sleep(1)
     myredLED1.fade()
     time.sleep(1)
-    
-    ```python
-    
- # Code Modules 
- 
- ```python
-    
-    #these are the libraries needed to fade an LED
+   
+```
+
+# Code Modules
+
+```python
+
+#these are the libraries needed to fade an LED
 import time
 import board
 import pwmio
