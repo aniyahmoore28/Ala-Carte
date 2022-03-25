@@ -39,3 +39,31 @@ while True:
     time.sleep(1)
     
     ```
+    
+    ```python
+    
+    #these are the libraries needed to fade an LED
+import time
+import board
+import pwmio
+
+class LED:
+
+    #note: I had a blue led, so I named my incoming ardument "bluePin"
+    def __init__(self, ledPin):
+       # init = like void Setup() from arduino.  Initialize your pins here
+       # start each object with "self.object"
+       self.led = pwmio.PWMOut(ledPin, frequency=5000, duty_cycle=0)
+
+    def fade(self):
+        # write your code to make it fade, here
+        for i in range(100):
+        # PWM LED up and down
+            if i < 50:
+                self.led.duty_cycle = int(i * 2 * 65535 / 100)  # Up
+            else:
+                self.led.duty_cycle = 65535 - int((i - 50) * 2 * 65535 / 100)
+            print(self.led.duty_cycle)
+            time.sleep(0.01)
+            
+            ```
