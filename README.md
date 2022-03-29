@@ -3,6 +3,8 @@
 ## Table of Contents 
 * [Fade LED Code](https://github.com/aniyahmoore28/Ala-Carte#fade-led-code)
 
+---
+
 # Classes, Objects, And Modules 
 
 # Reflection
