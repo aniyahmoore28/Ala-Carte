@@ -85,6 +85,9 @@ class LED:
 3) Made me realize i should be more careful when wiring my arduino because the smallest kink could stop it from working
 4) I learned that class, and objects are important when you need to create your own class to import into the final code
 
+# Evidence
+<img src="https://github.com/aniyahmoore28/Ala-Carte/blob/main/images/fed%20LED%20Gif.gif" width="250" />
+
 --------
 
 # CircuitPython LCD
