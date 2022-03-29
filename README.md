@@ -53,6 +53,7 @@ while True:
    
 ```
 
+---------
 ```python
 
 #these are the libraries needed to fade an LED
@@ -80,7 +81,7 @@ class LED:
             time.sleep(0.01)
             
   ```
------------
+
 
 # Reflection
 1) This project forced me to ask my classmates for help when i was struggling 
