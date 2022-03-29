@@ -1,6 +1,7 @@
 # Ala-Carte
 
 ## Table of Contents 
+* [Fade LED Code](https://github.com/aniyahmoore28/Ala-Carte#fade-led-code)
 
 # Classes, Objects, And Modules 
 
@@ -52,8 +53,6 @@ while True:
    
 ```
 
-# Code Modules
-
 ```python
 
 #these are the libraries needed to fade an LED
@@ -81,3 +80,10 @@ class LED:
             time.sleep(0.01)
             
             ```
+-----------
+
+# Reflection
+1) This project forced me to ask my classmates for help when i was struggling 
+2) Helped me create problem solving skills
+3) Made me realize i should be more careful when wiring my arduino because the smallest kink could stop it from working
+4) I learned that class, and objects are important when you need to create your own class to import into the final code
